@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SISPRO Costa Rica | Soluciones Tecnológicas</title>
+
+  <meta name="description"
+        content="SISPRO Costa Rica ofrece desarrollo de software, automatización de procesos y soluciones tecnológicas empresariales a la medida.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #263238;
+      background: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #12324a;
+      color: white;
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 26px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 24px;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: #f2f6f8;
+      padding: 90px 8%;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      color: #12324a;
+      margin-bottom: 15px;
+    }
+
+    .hero h2 {
+      font-size: 24px;
+      font-weight: normal;
+      margin-bottom: 22px;
+      color: #455a64;
+    }
+
+    .hero p {
+      max-width: 760px;
+      margin: auto;
+      font-size: 18px;
+    }
+
+    section {
+      padding: 65px 8%;
+    }
+
+    section h2 {
+      color: #12324a;
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .about {
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+      font-size: 17px;
+    }
+
+    .services {
+      background: #f7f9fa;
+    }
+
+    .service-container {
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 25px;
+    }
+
+    .service {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    }
+
+    .service h3 {
+      color: #12324a;
+      margin-bottom: 12px;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact a {
+      color: #1565c0;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #12324a;
+      color: white;
+      text-align: center;
+      padding: 30px 8%;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: white;
+      margin-left: 15px;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        justify-content: center;
+        text-align: center;
+      }
+
+      nav {
+        width: 100%;
+        margin-top: 12px;
+      }
+
+      nav a {
+        margin: 0 8px;
+      }
+
+      .hero h1 {
+        font-size: 34px;
+      }
+
+      .hero {
+        padding: 65px 7%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">SISPRO Costa Rica</div>
+
+  <nav>
+    <a href="#empresa">Empresa</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <h1>SISPRO Costa Rica</h1>
+    <h2>Soluciones tecnológicas para empresas</h2>
+
+    <p>
+      Desarrollo de software, automatización de procesos y soluciones
+      empresariales diseñadas de acuerdo con las necesidades de cada organización.
+    </p>
+  </section>
+
+  <section id="empresa">
+    <h2>Quiénes somos</h2>
+
+    <div class="about">
+      <p>
+        SISPRO Costa Rica es una empresa dedicada al desarrollo e implementación
+        de soluciones tecnológicas orientadas a mejorar los procesos administrativos
+        y operativos de las organizaciones.
+      </p>
+    </div>
+  </section>
+
+  <section id="servicios" class="services">
+    <h2>Servicios</h2>
+
+    <div class="service-container">
+
+      <div class="service">
+        <h3>Desarrollo de software</h3>
+        <p>
+          Desarrollo de aplicaciones y sistemas empresariales adaptados
+          a los requerimientos de cada organización.
+        </p>
+      </div>
+
+      <div class="service">
+        <h3>Automatización de procesos</h3>
+        <p>
+          Soluciones para automatizar tareas administrativas y mejorar
+          la eficiencia de los procesos empresariales.
+        </p>
+      </div>
+
+      <div class="service">
+        <h3>Integración de sistemas</h3>
+        <p>
+          Integración de aplicaciones, bases de datos y servicios para
+          facilitar el intercambio de información.
+        </p>
+      </div>
+
+      <div class="service">
+        <h3>Soluciones a la medida</h3>
+        <p>
+          Análisis y desarrollo de soluciones tecnológicas específicas
+          para las necesidades de cada empresa.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contacto" class="contact">
+    <h2>Contacto</h2>
+
+    <p>
+      Para información sobre nuestros servicios puede comunicarse con nosotros:
+    </p>
+
+    <p>
+      <a href="mailto:info@sispro.co.cr">info@sispro.co.cr</a>
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <p>
+    &copy; 2026 SISPRO Costa Rica.
+    Todos los derechos reservados.
+    <a href="privacidad.html">Política de Privacidad</a>
+  </p>
+</footer>
+
+</body>
+</html>
